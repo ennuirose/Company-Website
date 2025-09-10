@@ -1,6 +1,7 @@
 # Company Website (Next.js + Tailwind CSS)
 
 This is a modern **company website** project built with **Next.js 14** and **Tailwind CSS**, created as part of my portfolio to showcase full-stack web development skills.
+
 The design focuses on clean UI, responsiveness, and real-world sections that most businesses need.
 
 ---
