@@ -1,75 +1,77 @@
-import Link from 'next/link';
-
 export default function Contact() {
   return (
     <main>
-      <header className="bg-gray-950 text-white py-24 md:py-40 text-center">
+      <header className="bg-gray-950 py-24 text-center text-white md:py-40">
         <div className="container mx-auto px-6">
-          <h1 className="text-6xl font-extrabold md:text-8xl leading-tight mb-4">Contact Us</h1>
-          <p className="mt-4 text-xl md:text-2xl text-gray-300">We'd love to hear from you!</p>
+          <h1 className="mb-4 text-6xl leading-tight font-extrabold md:text-8xl">Contact Us</h1>
+          <p className="mt-4 text-xl text-gray-300 md:text-2xl">We'd love to hear from you!</p>
         </div>
       </header>
 
-      <section className="py-24 bg-gray-900 text-white">
+      <section className="bg-gray-900 py-24 text-white">
         <div className="container mx-auto px-6">
           <div className="md:flex md:justify-between">
             <div className="md:w-1/2">
-              <h2 className="text-5xl font-bold text-blue-500 mb-8">Send us a message</h2>
+              <h2 className="mb-8 text-5xl font-bold text-blue-500">Send us a message</h2>
               <form className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-gray-300 text-lg font-bold mb-2">
+                  <label htmlFor="name" className="mb-2 block text-lg font-bold text-gray-300">
                     Name
                   </label>
                   <input
                     type="text"
                     id="name"
-                    className="shadow-xl appearance-none border border-gray-700 rounded-lg w-full py-4 px-5 bg-gray-800 text-white leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300"
+                    className="w-full appearance-none rounded-lg border border-gray-700 bg-gray-800 px-5 py-4 leading-tight text-white shadow-xl transition duration-300 focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Your Name"
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-gray-300 text-lg font-bold mb-2">
+                  <label htmlFor="email" className="mb-2 block text-lg font-bold text-gray-300">
                     Email
                   </label>
                   <input
                     type="email"
                     id="email"
-                    className="shadow-xl appearance-none border border-gray-700 rounded-lg w-full py-4 px-5 bg-gray-800 text-white leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300"
+                    className="w-full appearance-none rounded-lg border border-gray-700 bg-gray-800 px-5 py-4 leading-tight text-white shadow-xl transition duration-300 focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Your Email"
                   />
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-gray-300 text-lg font-bold mb-2">
+                  <label htmlFor="message" className="mb-2 block text-lg font-bold text-gray-300">
                     Message
                   </label>
                   <textarea
                     id="message"
                     rows={6}
-                    className="shadow-xl appearance-none border border-gray-700 rounded-lg w-full py-4 px-5 bg-gray-800 text-white leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition duration-300"
+                    className="w-full appearance-none rounded-lg border border-gray-700 bg-gray-800 px-5 py-4 leading-tight text-white shadow-xl transition duration-300 focus:border-transparent focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Your Message"
-                  ></textarea>
+                  >
+                  </textarea>
                 </div>
                 <button
                   type="submit"
-                  className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg shadow-xl focus:outline-none focus:shadow-outline transition duration-300 hover:shadow-blue-500/50"
+                  className="rounded-lg bg-blue-600 px-8 py-4 font-bold text-white shadow-xl transition duration-300 hover:bg-blue-700 hover:shadow-blue-500/50 focus:outline-none"
                 >
                   Send Message
                 </button>
               </form>
             </div>
-            <div className="md:w-1/2 md:pl-12 mt-8 md:mt-0">
-              <h2 className="text-5xl font-bold text-blue-500 mb-8">Our Contact Information</h2>
-              <p className="text-xl text-gray-300 mb-4">
-                <strong>Address:</strong> 123 Main Street, Anytown, USA 12345
+            <div className="mt-8 md:mt-0 md:w-1/2 md:pl-12">
+              <h2 className="mb-8 text-5xl font-bold text-blue-500">Our Contact Information</h2>
+              <p className="mb-4 text-xl text-gray-300">
+                <strong>Address:</strong>
+                123 Main Street, Anytown, USA 12345
               </p>
-              <p className="text-xl text-gray-300 mb-4">
-                <strong>Phone:</strong> +1 (123) 456-7890
+              <p className="mb-4 text-xl text-gray-300">
+                <strong>Phone:</strong>
+                +1 (123) 456-7890
               </p>
-              <p className="text-xl text-gray-300 mb-4">
-                <strong>Email:</strong> info@thecompany.com
+              <p className="mb-4 text-xl text-gray-300">
+                <strong>Email:</strong>
+                info@thecompany.com
               </p>
               {/* Placeholder for a map */}
-              <div className="bg-gray-700 h-80 md:h-96 rounded-xl shadow-lg mt-8"></div>
+              <div className="mt-8 h-80 rounded-xl bg-gray-700 shadow-lg md:h-96"></div>
             </div>
           </div>
         </div>
