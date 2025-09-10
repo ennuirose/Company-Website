@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-white py-20">
+      <section className="bg-gray-900 py-20">
         <div className="container mx-auto px-6">
           <h2 className="mb-12 text-center text-4xl font-bold text-blue-500">What Our Clients Say</h2>
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
