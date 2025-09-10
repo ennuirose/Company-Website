@@ -14,7 +14,7 @@ export const AppConfig = {
 
 const supportedLocales: Record<string, LocalizationResource> = {
   en: enUS,
-  fr: frFR,
+  
 };
 
 export const ClerkLocalizations = {
